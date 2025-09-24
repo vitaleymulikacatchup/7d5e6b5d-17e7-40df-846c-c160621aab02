@@ -73,8 +73,7 @@ export default function Home() {
             { items: [{ label: "Terms of Service", onClick: () => console.log('Clicked Terms of Service') }] }
           ]}
           logoText="MemePulse"
-          onPrivacyClick={() => console.log('Clicked Privacy Policy')}
-          className="footer-class"  // Add other needed classes here
+          className="footer-class"
         />
       </div>
     </SiteThemeProvider>
