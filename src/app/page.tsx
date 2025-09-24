@@ -72,8 +72,9 @@ export default function Home() {
             { items: [{ label: "Contact", onClick: () => console.log('Clicked Contact') }] },
             { items: [{ label: "Terms of Service", onClick: () => console.log('Clicked Terms of Service') }] }
           ]}
-          copyrightText="© 2023 MemePulse. All rights reserved."
+          logoText="MemePulse"
           onPrivacyClick={() => console.log('Clicked Privacy Policy')}
+          className="footer-class"  // Add other needed classes here
         />
       </div>
     </SiteThemeProvider>
