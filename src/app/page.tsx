@@ -35,7 +35,7 @@ export default function Home() {
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
         <TokenBillboardHero 
-          title="Welcome to MemePulse!"
+          title="Welcome to the abyss of luck!"
           subtitle="The fun community-driven memecoin"
           contractAddress="0x123456789"
           copyButtonText="Copy Address"
